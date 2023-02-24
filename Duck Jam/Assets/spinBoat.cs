@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class spinDuck : MonoBehaviour
+public class spinBoat : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,6 +13,6 @@ public class spinDuck : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, 0, 7 * Time.deltaTime); //rotates 50 degrees per second around z axis
+        transform.Rotate(0, 40 * Time.deltaTime, 0); //rotates 50 degrees per second around z axis
     }
 }
