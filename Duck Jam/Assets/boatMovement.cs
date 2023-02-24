@@ -22,10 +22,8 @@ public class boatMovement : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         playerRotation = playerPosition.rotation.z;
 
-        if (playerRotation > -0.25 && playerRotation < 0.25)
-        {
-            playerPosition.Rotate(0, 0, horizontalInput * rotationSpeed);
-        }
+        playerPosition.Rotate(0, 0, -Mathf.Clamp(horizontalInput * rotationSpeed, -0.25f, 0.25f));
+        
     }
     private void FixedUpdate()
     {
