@@ -21,20 +21,7 @@ public class boatMovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
         playerRotation = playerPosition.rotation.z;
-
-        if (playerRotation > -0.45f && playerRotation < 0.45f)
-        {
-            playerPosition.Rotate(0, 0, -(horizontalInput * rotationSpeed));
-
-        }
-        else if (playerRotation <= -0.45f)
-        {
-            playerPosition.rotation = Quaternion.Euler(0, 0, -45F);
-        }
-        else if (playerRotation >= 0.45f)
-        {
-            playerPosition.rotation = Quaternion.Euler(0, 0, 45F);
-        }
+        playerPosition.Rotate(0, 0, -(horizontalInput * rotationSpeed));
 
     }
 
@@ -42,5 +29,4 @@ public class boatMovement : MonoBehaviour
     {
         rigidbody.velocity = transform.up * moveSpeed;
     }
-    
 }
