@@ -29,5 +29,4 @@ public class boatMovement : MonoBehaviour
     {
         rigidbody.velocity = transform.up * moveSpeed;
     }
-    
 }
