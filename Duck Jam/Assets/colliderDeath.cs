@@ -6,6 +6,7 @@ public class colliderDeath : MonoBehaviour
 {
 
     public GameObject Player;
+    public SpriteRenderer sr;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,16 @@ public class colliderDeath : MonoBehaviour
         {
             Player.transform.position = new Vector3(0, 0, 0);
             Player.transform.rotation = Quaternion.Euler(0, 0, 0);
+
+            sr.color = Color.red;
+            Invoke("colorChangeBack", 0.2f);
+            
         }
     }
+
+    private void colorChangeBack()
+    {
+        sr.color = Color.white;
+    }
+
 }
