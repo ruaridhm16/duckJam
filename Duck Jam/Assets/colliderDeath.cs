@@ -8,6 +8,8 @@ public class colliderDeath : MonoBehaviour
     public duckCounter duckCount;
     public GameObject Player;
     public SpriteRenderer sr;
+    public int numberOfLives = 3;
+    public Renderer rend;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,14 +31,15 @@ public class colliderDeath : MonoBehaviour
             duckCounter.duckCount = 0;
             sr.color = Color.red;
             Invoke("colorChangeBack", 0.5f);
-            
-            
+            rend.enabled = true;
+
+
         }
     }
 
     private void colorChangeBack()
     {
-        sr.color = Color.white;
+        sr.color = new Color(181, 143, 98);
     }
 
 }
