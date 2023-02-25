@@ -12,6 +12,9 @@ public class boatMovement : MonoBehaviour
     public float playerRotation;
     public float rotationSpeed = 3f;
 
+    
+
+
     void Start()
     {
 
