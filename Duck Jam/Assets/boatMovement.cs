@@ -18,15 +18,20 @@ public class boatMovement : MonoBehaviour
     }
 
     void Update()
-    {
+    {   //get inputs
         horizontalInput = Input.GetAxis("Horizontal");
         playerRotation = playerPosition.rotation.z;
         playerPosition.Rotate(0, 0, -(horizontalInput * rotationSpeed));
-      
+        
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     private void FixedUpdate()
     {
+        //move forward
         rigidbody.velocity = transform.up * moveSpeed;
     }
 }
