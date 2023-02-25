@@ -37,6 +37,15 @@ public class boatMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rigidbody.velocity = transform.up * moveSpeed;
-        playerPosition.Rotate(0, 0, -(horizontalInput * rotationSpeed));
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            playerPosition.Rotate(0, 0, rotationSpeed);
+
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            playerPosition.Rotate(0, 0, -rotationSpeed);
+        }
     }
 }

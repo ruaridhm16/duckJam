@@ -13,6 +13,7 @@ public class duckCollision : MonoBehaviour
     public bool isCollected;
     public boatMovement moveSpeed;
     public BoxCollider2D collider;
+    public int counter = 0;
 
     void Start()
     {
@@ -23,11 +24,7 @@ public class duckCollision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isCollected)
-        {
-            Duck.transform.position = Vector2.MoveTowards(Duck.transform.position, Player.transform.position, 0.0058f);
-            //boatMovement.moveSpeed
-        }
+        
     }
 
     void OnTriggerEnter2D(Collider2D c2d)
@@ -39,8 +36,12 @@ public class duckCollision : MonoBehaviour
            
             duckCounter.duckCount = duckCounter.duckCount + 1;
             Destroy(collider);
-            Duck.transform.position = new Vector2(Player.transform.position.x, Player.transform.position.y - (1 * duckCounter.duckCount));
-            isCollected = true;
+            while (counter < 100)
+            {
+                Duck.transform.localScale = new Vector2(Duck.transform.localScale.x - 0.1f, Duck.transform.localScale.y - 0.1f);
+                Duck.transform.rotation = Quaternion.Euler(0, 0, Duck.transform.rotation.z + 10);
+            }
+            Destroy(Duck);
 
         }
     } 
