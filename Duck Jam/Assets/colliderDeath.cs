@@ -7,6 +7,7 @@ public class colliderDeath : MonoBehaviour
 
     public GameObject Player;
     public SpriteRenderer sr;
+    public int numberOfLives = 3;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,11 @@ public class colliderDeath : MonoBehaviour
 
             sr.color = Color.red;
             Invoke("colorChangeBack", 0.2f);
+            numberOfLives -= 1;
+            if (numberOfLives == 0)
+            {
+                print("You died");
+            }
             
         }
     }
