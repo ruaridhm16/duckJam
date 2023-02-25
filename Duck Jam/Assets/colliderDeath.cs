@@ -27,7 +27,7 @@ public class colliderDeath : MonoBehaviour
             Player.transform.rotation = Quaternion.Euler(0, 0, 0);
 
             sr.color = Color.red;
-            Invoke("colorChangeBack", 0.2f);
+            Invoke("colorChangeBack", 0.5f);
             
         }
     }
