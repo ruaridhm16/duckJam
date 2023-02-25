@@ -28,12 +28,7 @@ public class colliderDeath : MonoBehaviour
             Player.transform.rotation = Quaternion.Euler(0, 0, 0);
 
             sr.color = Color.red;
-            Invoke("colorChangeBack", 0.2f);
-            numberOfLives -= 1;
-            if (numberOfLives == 0)
-            {
-                print("You died");
-            }
+            Invoke("colorChangeBack", 0.5f);
             
         }
     }
