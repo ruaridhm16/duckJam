@@ -422,8 +422,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142456050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.1, y: 38.9, z: 0}
-  m_LocalScale: {x: 4.4552855, y: 84.67613, z: 1}
+  m_LocalPosition: {x: 9.6674, y: 38.6851, z: 0}
+  m_LocalScale: {x: 7.32048, y: 85.10798, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -607,7 +607,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duckCount: {fileID: 254397651}
   level: 1
-  played: 0
   level1Layer1: {fileID: 658685551}
   level1Layer2: {fileID: 1804209561}
   level1Layer3: {fileID: 2086282699}
@@ -809,7 +808,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -1220,9 +1219,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cbac270571d76e84dac0270cec5acf98, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 56727d7cf0c6c1e4ab4f82df295dd4ee, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.963
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -8000,9 +7999,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 56727d7cf0c6c1e4ab4f82df295dd4ee, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cbac270571d76e84dac0270cec5acf98, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.539
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -8306,7 +8305,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 848dcdcddc652e04e9609e9f7e3a131b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 56727d7cf0c6c1e4ab4f82df295dd4ee, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.328
   m_Pitch: 1
@@ -8474,8 +8473,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130859137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.675, y: 38.3697, z: 0}
-  m_LocalScale: {x: 4.4552855, y: 84.67613, z: 1}
+  m_LocalPosition: {x: -10.0275, y: 38.6204, z: 0}
+  m_LocalScale: {x: 7.7504144, y: 84.176544, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
