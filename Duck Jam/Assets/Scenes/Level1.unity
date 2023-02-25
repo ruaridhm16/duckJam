@@ -20782,6 +20782,7 @@ MonoBehaviour:
   isCollected: 0
   moveSpeed: {fileID: 2089643112}
   collider: {fileID: 587785048}
+  counter: 0
 --- !u!1 &658685549
 GameObject:
   m_ObjectHideFlags: 0
@@ -20958,8 +20959,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 575c3c36463a802409da96c2a93b61e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duckCount: {fileID: 254397651}
-  rend: {fileID: 683001032}
 --- !u!61 &683001030
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21072,6 +21071,7 @@ MonoBehaviour:
   isCollected: 0
   moveSpeed: {fileID: 2089643112}
   collider: {fileID: 683001030}
+  counter: 0
 --- !u!1 &685510980
 GameObject:
   m_ObjectHideFlags: 0
@@ -21304,6 +21304,7 @@ MonoBehaviour:
   isCollected: 0
   moveSpeed: {fileID: 2089643112}
   collider: {fileID: 732086985}
+  counter: 0
 --- !u!1 &805313668
 GameObject:
   m_ObjectHideFlags: 0
@@ -50428,8 +50429,12 @@ PrefabInstance:
       value: -0.8311667
       objectReference: {fileID: 0}
     - target: {fileID: 8037959701668067449, guid: 390a71827e5d1dd4eb2e62e794655ba9, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8037959701668067449, guid: 390a71827e5d1dd4eb2e62e794655ba9, type: 3}
       propertyPath: m_Interpolate
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8037959701668067450, guid: 390a71827e5d1dd4eb2e62e794655ba9, type: 3}
       propertyPath: moveSpeed

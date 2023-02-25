@@ -9,7 +9,7 @@ public class boatMovement : MonoBehaviour
     public float horizontalInput;
     public static float moveSpeed = 5f;
     public float playerRotation;
-    public float rotationSpeed = 5f;
+    public float rotationSpeed = 6f;
     
 
     

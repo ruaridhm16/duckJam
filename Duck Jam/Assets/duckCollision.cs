@@ -24,7 +24,16 @@ public class duckCollision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (isCollected && counter < 10)
+        {
+            Duck.transform.localScale = new Vector2(Duck.transform.localScale.x - 0.01f, Duck.transform.localScale.y - 0.01f);
+            Duck.transform.rotation = Quaternion.Euler(0, 0, Duck.transform.rotation.z + 2);
+            counter += 1;
+        }
+        else if (isCollected && counter >= 10)
+        {
+            Destroy(Duck);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D c2d)
@@ -36,13 +45,7 @@ public class duckCollision : MonoBehaviour
            
             duckCounter.duckCount = duckCounter.duckCount + 1;
             Destroy(collider);
-            while (counter < 100)
-            {
-                Duck.transform.localScale = new Vector2(Duck.transform.localScale.x - 0.1f, Duck.transform.localScale.y - 0.1f);
-                Duck.transform.rotation = Quaternion.Euler(0, 0, Duck.transform.rotation.z + 10);
-            }
-            Destroy(Duck);
-
+            isCollected = true;
         }
     } 
 }
