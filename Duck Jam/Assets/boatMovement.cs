@@ -7,10 +7,10 @@ public class boatMovement : MonoBehaviour
     public Transform playerPosition;
     public Rigidbody2D rigidbody;
     public float horizontalInput;
-    public float moveSpeed = 5f;
-    public float verticalMoveSpeed = 3f;
+    public static float moveSpeed = 5f;
     public float playerRotation;
-    public float rotationSpeed = 3f;
+    public float rotationSpeed = 5f;
+    
 
     
 
@@ -23,20 +23,20 @@ public class boatMovement : MonoBehaviour
     void Update()
     {   //get inputs
         horizontalInput = Input.GetAxis("Horizontal");
-        playerRotation = playerPosition.rotation.z;
-        playerPosition.Rotate(0, 0, -(horizontalInput * rotationSpeed));
         
+
         if (Input.GetKey(KeyCode.Escape))
         {
             Application.Quit();
         }
 
         //move forward
-        rigidbody.velocity = transform.up * moveSpeed;
+        
     }
 
     private void FixedUpdate()
     {
-        
+        rigidbody.velocity = transform.up * moveSpeed;
+        playerPosition.Rotate(0, 0, -(horizontalInput * rotationSpeed));
     }
 }

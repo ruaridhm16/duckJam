@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Data/Managed/Assembly-CSharp.dll</key>
 		<data>
-		WJiZu+ei0pW76NPzCgdTJzMrKOo=
+		rNPXeT22WQcoomKa8gzeS30JFEI=
 		</data>
 		<key>Resources/Data/Managed/Cinemachine.dll</key>
 		<data>
@@ -147,6 +147,30 @@
 		<key>Resources/Data/Managed/Unity.Mathematics.dll</key>
 		<data>
 		oIrUkZki/9Ei8PHJH0pQizT2QgY=
+		</data>
+		<key>Resources/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll</key>
+		<data>
+		Da0KXaBb6mYG76z7WoQbk1/7uuw=
+		</data>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll</key>
+		<data>
+		IgX77dErUFSGGW4bOiTRTp13WRM=
+		</data>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll</key>
+		<data>
+		96nMB4X7vLLyG/0Ij0ndU5QutXg=
+		</data>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</key>
+		<data>
+		Hp/CwERKiUvqDoYDIyKINoMIPJ4=
+		</data>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll</key>
+		<data>
+		ZiD1y7V3cj7S80PaufHKXc2K7hs=
+		</data>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll</key>
+		<data>
+		Rr7JdWaa8agbRqyhT02zWwETBZY=
 		</data>
 		<key>Resources/Data/Managed/Unity.TextMeshPro.dll</key>
 		<data>
@@ -474,35 +498,47 @@
 		</data>
 		<key>Resources/Data/globalgamemanagers</key>
 		<data>
-		WtmBQOQphVKQTjlUo8IaV7VK23Q=
+		NU8c3qDwxnYLsoiyE7fnlqDeAwo=
 		</data>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<data>
-		rc61eLql15bc9nFkkv26wAYXX+k=
+		64E2UphNRszZDk9ZxwRQBOpa+cM=
 		</data>
 		<key>Resources/Data/level0</key>
 		<data>
-		+ItR//JGmxP9S+qj8KMgrRX2oTk=
+		wqAVptefQptZ/wDtHkZwRck7czA=
 		</data>
 		<key>Resources/Data/level1</key>
 		<data>
-		ea9RiuxXZdjR3ZW2/DEq9k34pt4=
+		ZMFcmbrK0en6TTBRwG4xSvk8790=
+		</data>
+		<key>Resources/Data/resources.assets</key>
+		<data>
+		vY7xtFf30h65CEao2P4uqVhyfJw=
+		</data>
+		<key>Resources/Data/resources.assets.resS</key>
+		<data>
+		lBT31vf3WQ08kmDQv6QT6YEwlms=
 		</data>
 		<key>Resources/Data/sharedassets0.assets</key>
 		<data>
-		xTdL0qbcKLW1H3uRrxF0CyXfx2g=
+		mfk4fp2QRoNxjLdUfoEgMiYJYwc=
 		</data>
 		<key>Resources/Data/sharedassets0.assets.resS</key>
 		<data>
-		8Gk7+m+l671O5P2uhbF6mW556z4=
+		ivAgoYKzax67etZCRgAYmXDQ5ME=
 		</data>
 		<key>Resources/Data/sharedassets1.assets</key>
 		<data>
-		dsF+RX8qQ5i2XNMpq5FOYpcuiOY=
+		/tgC+aeGlYya0pEGh1P+x/1rHGI=
 		</data>
 		<key>Resources/Data/sharedassets1.assets.resS</key>
 		<data>
-		H9evuA+AGa9xRxIaqxa5UwtDbU4=
+		K49OQl8PptCMkv/yTvxnK+VZP3Y=
+		</data>
+		<key>Resources/Data/sharedassets1.resource</key>
+		<data>
+		N3Zn1aRoGjvco9Yh7Oo8OAz8WwM=
 		</data>
 		<key>Resources/DefaultPreferences.plist</key>
 		<data>
@@ -563,7 +599,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ihCCBXrFaB3NTpwiftf7jrQqwWGJY7XeO2Vzndd+J0E=
+			YI9jFFKBJCU9zboW23GWfsph1dYtm/OuPi9JJsWJG8M=
 			</data>
 		</dict>
 		<key>MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx</key>
@@ -598,7 +634,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ihCCBXrFaB3NTpwiftf7jrQqwWGJY7XeO2Vzndd+J0E=
+			YI9jFFKBJCU9zboW23GWfsph1dYtm/OuPi9JJsWJG8M=
 			</data>
 		</dict>
 		<key>MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx</key>
@@ -633,7 +669,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ihCCBXrFaB3NTpwiftf7jrQqwWGJY7XeO2Vzndd+J0E=
+			YI9jFFKBJCU9zboW23GWfsph1dYtm/OuPi9JJsWJG8M=
 			</data>
 		</dict>
 		<key>MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx</key>
@@ -689,16 +725,16 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			zWq6Lzmc70aYFRHTqnVfUlVHkt8=
+			JkDrhLjhBsDJfH796oz2pMb7hL0=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"cd6aba2f399cef46981511d3aa755f52554792df" or cdhash H"eff19532030a31a1a3fbb5df5cf1f7d3c273fde2"</string>
+			<string>cdhash H"2640eb84b8e106c0c97c7efdea8cf6a4c6fb84bd" or cdhash H"e127250f7f36eb712dd4b242b8b85f8c13e0b232"</string>
 		</dict>
 		<key>Resources/Data/Managed/Assembly-CSharp.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5zxzSTVz414L3UOhZWPSlOFyKmiWs4Mf1VmAodI4G9w=
+			QUlLlokTLNZft8trFmWBnay6dvRJkXM3T3qvjiB4dK0=
 			</data>
 		</dict>
 		<key>Resources/Data/Managed/Cinemachine.dll</key>
@@ -944,6 +980,48 @@
 			<key>hash2</key>
 			<data>
 			L9f+ZEbAH4r9KtThFAAHhD8s0LD5vUbJJEzEvnitw/4=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jf64TKqXPuICuJ8VGq1cLzjEtqzm2hRQbCvgczJEf9M=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SAm2F5jw8BgTRP20r5XLjeympUCJfSCeR442MGq+S+k=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7c3Nx9FGG6w3VeUqzvTw9RbNdvH6vwRq5tC0Uxyj6i4=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aRTvS595N5LohY4xXxMeA/GoNmFnbVYhVkpAOA0sgzo=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Tfd+bkv9U+YZskxedt5o3NTGUl82mLaDCzzdP9cteuw=
+			</data>
+		</dict>
+		<key>Resources/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sy5gHmdfCJM2rvXRp81gnIfcLcB6sklJfJOUTomVqx8=
 			</data>
 		</dict>
 		<key>Resources/Data/Managed/Unity.TextMeshPro.dll</key>
@@ -1517,56 +1595,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YaxoT4ZiTiFYzU7kuYg1PaYdQlFH521ZMzz/x0zQzhw=
+			I3DdKIffu47GQgncPi9wtglvtZThGlcqSAKaqAbstI8=
 			</data>
 		</dict>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rvm7ZMnJLZfVJX9QZJmXhc9cR8+JjtrZDOWyxAOSeP0=
+			Gk9MYJE4SLlhtyBsq88RHk1lubEhcISSLZjJFjjkKNM=
 			</data>
 		</dict>
 		<key>Resources/Data/level0</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SYGC2Jaskzk8IO5JwfOi97cnz/5nM145mngY2UogceM=
+			GNDlg23uCJ8gnQwPAXL+uHIsH+xoFVVha3qhKbCWfSo=
 			</data>
 		</dict>
 		<key>Resources/Data/level1</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CQQ2dtepbPtj1hWsyTHZLw01WeG8b6zAY2gipkeAjSc=
+			OxwrKN75b8+pRGhkSkNIHtgKtrM7UH/dNNuXLpx2/2E=
+			</data>
+		</dict>
+		<key>Resources/Data/resources.assets</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1JgYyfVAZ7CILax1JUyhl93A0PyN8NfuDxCn/ZmwRVU=
+			</data>
+		</dict>
+		<key>Resources/Data/resources.assets.resS</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aHX4FwcVCSfdNBwB57L0NvAViHpzQaNv2JL4U5fvb6I=
 			</data>
 		</dict>
 		<key>Resources/Data/sharedassets0.assets</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1G6LIzR6gVVLvBa/iXEzokS5s/zORb/gwDrW4/eOHGU=
+			FKDDyN7BEfYrKdMrBMRRiJ0yiVuUFBaCzRUDekosgdA=
 			</data>
 		</dict>
 		<key>Resources/Data/sharedassets0.assets.resS</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MuYrPFV/qxH9Us6lSIWHj1Do1vhiUQxicfv1znMZWRg=
+			DjifWHnsCm50tTquR8/k8x5GokOoiEh9L9XIfB9unVo=
 			</data>
 		</dict>
 		<key>Resources/Data/sharedassets1.assets</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0k5oOjqVfe7kRYl8D6PHNZf5OJGlPKK7/36uJ8O0BUA=
+			fqqrdrW1M8qtxZem9a89mqbHrOS+Qtg0z/HnCxN/fPg=
 			</data>
 		</dict>
 		<key>Resources/Data/sharedassets1.assets.resS</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m715S3ybsbk9UyLji8V1XVUzaIZASebnIIUMYBehG/U=
+			EylGn9w9yK7+iFMYOKK05apFiPCZQaPPvmqJMytfNho=
+			</data>
+		</dict>
+		<key>Resources/Data/sharedassets1.resource</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uJX33gNQJTtL9KAzfTvQdNUZiNbI0W8VjJvJUedXazo=
 			</data>
 		</dict>
 		<key>Resources/DefaultPreferences.plist</key>
