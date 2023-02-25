@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 20297
+  controlID: 35818
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 20298
+  controlID: 35819
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 20299
+  controlID: 35820
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 0
     width: 301.6
     height: 413.6
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -226,7 +226,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1012ffffd43effff5e42ffffee73ffff6cd0ffffb2d0ffff52d3ffff5ad3ffff5ee3ffff94e3ffffd2e3fffff8e3ffff04e5ffff3ce5ffffdce7ffffe4e7ffff04fbffff5c6b000038b6000068b600007eb600006cd90000
+      m_ExpandedIDs: d485feff2086feffc488feffcc88feff64a1feffd4edfeff1012ffffd43effff5e42ffffee73ffff6cd0ffffb2d0ffff52d3ffff5ad3ffff5ee3ffff94e3ffffd2e3fffff8e3ffff04e5ffff3ce5ffffdce7ffffe4e7ffff04fbffff5c6b000038b6000068b600007eb60000c4d800003ad900006cd900002e01010030010100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -496,7 +496,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -557,9 +557,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.8844155, y: 79.14207, z: 65.83245}
+    m_Target: {x: 2.3667526, y: -0.24727875, z: 3.755044}
     speed: 2
-    m_Value: {x: 1.8844155, y: 79.14207, z: 65.83245}
+    m_Value: {x: 2.3667526, y: -0.24727875, z: 3.755044}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -608,11 +608,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: -1}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.808468
+    m_Target: 2.762666
     speed: 2
-    m_Value: 7.808468
+    m_Value: 2.762666
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -630,7 +630,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.21997245, y: 0.20226248, z: -0.046678364, w: -0.9531687}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -647,7 +647,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GridPaintPaletteWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -656,14 +656,14 @@ MonoBehaviour:
     y: 0
     width: 405.6001
     height: 413.6
-  m_MinSize: {x: 240, y: 200}
+  m_MinSize: {x: 275, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 11}
+  m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
   - {fileID: 11}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -698,8 +698,8 @@ MonoBehaviour:
     m_CachedPref: -151
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -60918
-  m_LastVerticalScrollValue: 0
+  m_LastInspectedObjectInstanceID: 65846
+  m_LastVerticalScrollValue: 108
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -808,22 +808,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/TopDown 2D RPG BE3/Sprites
+    - Assets/Images
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 50
   m_LastFolders:
-  - Assets/TopDown 2D RPG BE3/Sprites
+  - Assets/Images
   m_LastFoldersGridSize: 50
   m_LastProjectPath: C:\Users\Ruari\Documents\GitHub\duckJam\Duck Jam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 02cd0000
-    m_LastClickedID: 52482
-    m_ExpandedIDs: 00000000906e0000cccc000000ca9a3bffffff7f
+    m_SelectedIDs: 9e6e0000
+    m_LastClickedID: 28318
+    m_ExpandedIDs: 00000000906e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -876,10 +876,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 0a12ffff
-    m_LastClickedInstanceID: -60918
+    m_SelectedInstanceIDs: 36010100
+    m_LastClickedInstanceID: 65846
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000145f0000b272000000000000e6760000aa5f0000965f0000a65f00001ad90000ca6e0000cecc0000fed30000fad300000ed4000082de000072cc0000
+    m_ExpandedInstanceIDs: c6230000145f0000b272000000000000e6760000aa5f0000965f0000a65f00001ad90000ca6e0000cecc0000fed30000fad300000ed4000082de000072cc000046f10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -895,7 +895,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
+      m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -903,7 +903,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 111.80002}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 50
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
