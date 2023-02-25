@@ -2,18 +2,19 @@ using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class colliderDeath : MonoBehaviour
 {
     public duckCounter duckCount;
     public GameObject Player;
     public SpriteRenderer sr;
-    public int numberOfLives = 3;
     public Renderer rend;
+    public Color originalColor;
     // Start is called before the first frame update
     void Start()
     {
-        
+        originalColor = sr.color;
     }
 
     // Update is called once per frame
@@ -26,8 +27,7 @@ public class colliderDeath : MonoBehaviour
     {
         if (collision.gameObject.layer == 3)
         {
-            Player.transform.position = new Vector3(0, 0, 0);
-            Player.transform.rotation = Quaternion.Euler(0, 0, 0);
+            SceneManager.LoadScene("Level1");
             duckCounter.duckCount = 0;
             sr.color = Color.red;
             Invoke("colorChangeBack", 0.5f);
@@ -39,7 +39,7 @@ public class colliderDeath : MonoBehaviour
 
     private void colorChangeBack()
     {
-        sr.color = new Color(181, 143, 98);
+        sr.color = originalColor;
     }
 
 }
