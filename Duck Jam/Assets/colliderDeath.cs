@@ -1,10 +1,11 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class colliderDeath : MonoBehaviour
 {
-
+    public duckCounter duckCount;
     public GameObject Player;
     public SpriteRenderer sr;
     public int numberOfLives = 3;
@@ -26,9 +27,10 @@ public class colliderDeath : MonoBehaviour
         {
             Player.transform.position = new Vector3(0, 0, 0);
             Player.transform.rotation = Quaternion.Euler(0, 0, 0);
-
+            duckCounter.duckCount = 0;
             sr.color = Color.red;
             Invoke("colorChangeBack", 0.5f);
+            
             
         }
     }

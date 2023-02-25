@@ -30,11 +30,13 @@ public class boatMovement : MonoBehaviour
         {
             Application.Quit();
         }
+
+        //move forward
+        rigidbody.velocity = transform.up * moveSpeed;
     }
 
     private void FixedUpdate()
     {
-        //move forward
-        rigidbody.velocity = transform.up * moveSpeed;
+        
     }
 }
