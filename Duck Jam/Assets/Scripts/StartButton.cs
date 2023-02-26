@@ -33,6 +33,6 @@ public class StartButton : MonoBehaviour, IPointerExitHandler, IPointerEnterHand
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("LevelSelect");
     }
 }
