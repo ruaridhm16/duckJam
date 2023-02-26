@@ -25,7 +25,7 @@ public class colliderDeath : MonoBehaviour
     {
         if (finished == true)
         {
-            Invoke("LevelSelect", 5);
+            
         }
     }
 
@@ -55,12 +55,18 @@ public class colliderDeath : MonoBehaviour
 
         }
 
-        else if (collision.gameObject.layer == 7 && !finished)
+        
+        
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == 7 && !finished)
         {
             finished = true;
+            Invoke("LevelSelect", 5);
         }
-        
-        
     }
 
     private void colorChangeBack()
@@ -70,7 +76,7 @@ public class colliderDeath : MonoBehaviour
 
     private void LevelSelect()
     {
-        SceneManager.LoadScene("LevelSe");
+        SceneManager.LoadScene("LevelSelect");
     }
 
 }
