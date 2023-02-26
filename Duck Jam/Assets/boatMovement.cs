@@ -5,9 +5,9 @@ using UnityEngine;
 public class boatMovement : MonoBehaviour
 {
     public Transform playerPosition;
-    public Rigidbody2D rigidbody;
+    public Rigidbody2D rb;
     public float horizontalInput;
-    public static float moveSpeed = 5f;
+    public static float moveSpeed = 3f;
     public float playerRotation;
     public float rotationSpeed = 6f;
     
@@ -36,7 +36,7 @@ public class boatMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rigidbody.velocity = transform.up * moveSpeed;
+        rb.velocity = transform.up * moveSpeed;
 
         if (Input.GetKey(KeyCode.A))
         {
