@@ -11,6 +11,7 @@ public class colliderDeath : MonoBehaviour
     public SpriteRenderer sr;
     public Renderer rend;
     public Color originalColor;
+   
     // Start is called before the first frame update
     void Start()
     {

@@ -17,7 +17,7 @@ public class duckCollision : MonoBehaviour
 
     void Start()
     {
-  
+        rend = Duck.GetComponent<SpriteRenderer>();
         rend.enabled = true;
     }
 
