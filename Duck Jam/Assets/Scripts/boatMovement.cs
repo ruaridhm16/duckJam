@@ -1,6 +1,7 @@
  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class boatMovement : MonoBehaviour
 {
@@ -21,7 +22,21 @@ public class boatMovement : MonoBehaviour
     }
 
     void Update()
-    {   //get inputs
+    {
+        if (SceneManager.GetActiveScene().name == "Level1" && playerPosition.position.y >= 83)
+        {
+            SceneManager.LoadScene("LevelSelect");
+        }
+        else if (SceneManager.GetActiveScene().name == "Level2" && playerPosition.position.y >= 118)
+        {
+            SceneManager.LoadScene("LevelSelect");
+        }
+        else if (SceneManager.GetActiveScene().name == "Level3" && playerPosition.position.y >= 200)
+        {
+            SceneManager.LoadScene("LevelSelect");
+        }
+
+        //get inputs
         horizontalInput = Input.GetAxis("Horizontal");
         
 
