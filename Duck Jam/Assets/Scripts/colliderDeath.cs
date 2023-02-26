@@ -11,22 +11,27 @@ public class colliderDeath : MonoBehaviour
     public SpriteRenderer sr;
     public Renderer rend;
     public Color originalColor;
-   
+    public bool finished;
+
     // Start is called before the first frame update
     void Start()
     {
         originalColor = sr.color;
+        finished = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (finished == true)
+        {
+            Invoke("LevelSelect", 5);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == 3)
+        if (collision.gameObject.layer == 3 && !finished)
         {
             if (SceneManager.GetActiveScene().name == "Level1")
             {
@@ -49,11 +54,23 @@ public class colliderDeath : MonoBehaviour
 
 
         }
+
+        else if (collision.gameObject.layer == 7 && !finished)
+        {
+            finished = true;
+        }
+        
+        
     }
 
     private void colorChangeBack()
     {
         sr.color = originalColor;
+    }
+
+    private void LevelSelect()
+    {
+        SceneManager.LoadScene("LevelSe");
     }
 
 }
