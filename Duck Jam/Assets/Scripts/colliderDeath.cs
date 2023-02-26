@@ -23,10 +23,7 @@ public class colliderDeath : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (finished == true)
-        {
-            
-        }
+       
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
