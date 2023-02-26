@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-<<<<<<< HEAD
-=======
-
->>>>>>> eee216869eaf7b8ef73c0fd2cae7608a31b00a36
 
 public class boatMovement : MonoBehaviour
 {
